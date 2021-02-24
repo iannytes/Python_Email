@@ -4,11 +4,6 @@ import smtplib
 import os
 
 
-
-gc = gspread.service_account(filename='credentials.json')
-sh = gc.open_by_key('1DeAFaS_fHhnGIdCDdZBzZcvmvyx-ycy0dyIOvyn96VE')
-
-
 #Send and email using smtplib through gmail
 def send_alert(recipient, subject, msg):
     
