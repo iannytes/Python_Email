@@ -1,5 +1,4 @@
 import gspread
-import schedule
 import smtplib
 import os
 
